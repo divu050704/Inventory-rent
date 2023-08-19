@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #313855;
+    padding-left: 1rem;
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+    height: 10vh;
+}
+.navbar > h2{
+    color :#8EBBFF;
+    margin: 0;
+}
+.Main{
+    display: flex;
+    height: 90vh;
+}
+.side-bar{
+    background-color: #313855;
+    height: auto;
+    width: 10%;
+
+}
+.side-bar--opened{
+    color:  #8EBBFF;
+    background-color: rgba(142, 187, 255, 0.26);
+    padding: 0.5rem;
+}
+.side-bar--closed{
+    color: #8EBBFF;
+    padding: 0.5rem;
+    cursor: pointer;
+}
